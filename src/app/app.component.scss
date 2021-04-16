@@ -1,0 +1,90 @@
+
+.sidebar
+{
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar > div
+{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.vector-line {
+  width: 2px;
+  height: 20%;
+  background-color: #F1D145;
+}
+
+div.content
+{
+  margin-left: 150px;
+  padding: 1px 16px;
+  height: 100%;
+  background-color: grey;
+}
+
+.rabbit-logo
+{
+  width: 69px;
+  height: 57px;
+  opacity: 1;
+}
+
+.pending-logo
+{
+  width: 45px;
+  height: 45px;
+
+  transition: all 0.60s;
+}
+
+.pending-logo:hover
+{
+  width: 50px;
+  height: 50px;
+  transform: scale(1.1);
+}
+
+.sidebar-org
+{
+  text-transform: uppercase;
+  font-size: 20px;
+  transform:  matrix(0, -1, 1, 0, 0, 0);
+  color: #375238;
+}
+
+.sidebar-org > span
+{
+  color: #F1D145;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+
+}
