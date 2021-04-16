@@ -1,3 +1,5 @@
+[![Angular CI](https://github.com/RexT2507/Integration-Web-Tp-Note/actions/workflows/angular.yml/badge.svg)](https://github.com/RexT2507/Integration-Web-Tp-Note/actions/workflows/angular.yml)
+
 # IntegrationWebTpNote
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.

@@ -5,6 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FruitPageComponent } from './fruit-page/fruit-page.component';
 import { VegePageComponent } from './vege-page/vege-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
+
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,9 @@ import { VegePageComponent } from './vege-page/vege-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    MatIconModule,
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
