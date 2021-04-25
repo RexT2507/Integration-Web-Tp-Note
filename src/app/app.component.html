@@ -1,44 +1,55 @@
-<div class="sidebar">
-
-  <div>
-    <img class="rabbit-logo" src="../assets/logoRabbit@2x.png">
-  </div>
 
 
-  <div>
-    <img src="../assets/panier.png">
-  </div>
+<div [@routeAnimations]="prepareRoute(Outlet)" class="content-parent">
 
-  <div>
-    <div class="vector-line">
+  <div class="sidebar" #elem>
+
+    <div>
+      <img class="rabbit-logo" src="../assets/logoRabbit@2x.png">
     </div>
-  </div>
 
-  <div>
-    <img class="pending-logo" src="../assets/hamburger.png">
-  </div>
 
-  <div>
-    <div class="vector-line">
+    <div>
+      <img src="../assets/panier.png">
+    </div>
+
+    <div>
+      <div class="vector-line">
+      </div>
+    </div>
+
+    <div  (click)="toggleMenuCollapse()">
+      <img  *ngIf="isMenuCollapsed" class="pending-logo" src="../assets/hamburger.png">
+      <span *ngIf="!isMenuCollapsed">X</span>
+    </div>
+
+    <div>
+      <div class="vector-line">
+
+      </div>
 
     </div>
+
+    <div>
+      <img src="../assets/search.png">
+    </div>
+
+    <div>
+      <h3 class="sidebar-org"><span>orga</span>bits</h3>
+    </div>
+
   </div>
 
-  <div>
-    <img src="../assets/search.png">
+
+  <div class="collapse-menu" [ngClass]="{collapsed: isMenuCollapsed}">
+
   </div>
 
-  <div>
-    <h3 class="sidebar-org"><span>orga</span>bits</h3>
+  <div class="content" >
+    <router-outlet #Outlet=outlet></router-outlet>
   </div>
 
 </div>
-
-<div class="content">
-  <router-outlet></router-outlet>
-</div>
-
-
 
 
 

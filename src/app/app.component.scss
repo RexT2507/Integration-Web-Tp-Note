@@ -21,18 +21,24 @@
   justify-content: center;
 }
 
-.vector-line {
+.vector-line
+{
   width: 2px;
   height: 20%;
   background-color: #F1D145;
 }
 
+.content-parent
+{
+  height: 100%;
+}
+
 div.content
 {
-  margin-left: 150px;
+  margin-left: 135px;
   padding: 1px 16px;
   height: 100%;
-  background-color: grey;
+  background-color: #F7F8FA;
 }
 
 .rabbit-logo
@@ -46,7 +52,6 @@ div.content
 {
   width: 45px;
   height: 45px;
-
   transition: all 0.60s;
 }
 
@@ -56,6 +61,25 @@ div.content
   height: 50px;
   transform: scale(1.1);
 }
+
+.collapse-menu
+{
+  height: 100%;
+  position: absolute;
+  margin-left: 150px;
+  width: calc(100vw - 150px);
+  background-color: white;
+  transition: width 1s ease, 2s background-position 1s ease;
+
+  &.collapsed
+  {
+    transition: width 1s ease, 2s background-position 1s ease;
+    position: fixed;
+    overflow: hidden;
+    width: 0;
+  }
+}
+
 
 .sidebar-org
 {
