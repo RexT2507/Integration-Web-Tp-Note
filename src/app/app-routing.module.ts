@@ -14,11 +14,17 @@ const routes: Routes = [
   },
   {
     path: 'vegetable',
-    component: VegePageComponent
+    component: VegePageComponent,
+    data: {
+      animation: "vege-animation"
+    }
   },
   {
     path: 'fruit',
-    component: FruitPageComponent
+    component: FruitPageComponent,
+    data: {
+      animation: "fruit-animation"
+    }
   }
 
 ];
