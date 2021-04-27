@@ -39,6 +39,7 @@ export class FruitPageComponent implements OnInit {
 
 	active: boolean = false;
 
+
   constructor() { }
 
   ngOnInit(): void {

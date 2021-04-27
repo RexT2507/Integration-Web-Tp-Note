@@ -1,9 +1,364 @@
-body
+
+// PAGE FRUIT
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.fruit-content
 {
-  top: -744px;
-  left: -140px;
-  width: 2557px;
-  height: 1919px;
-  background: transparent url('../../assets/pineapple-supply-co-prP9CYcRpzA-unsplash.png') 0% 0% no-repeat padding-box;
+  animation: 0.5s ease-out 0s 1 slideInFromBottom;
+  background: transparent url('../../assets/Sans-titre-2.png') 0% 0% no-repeat padding-box;
+  background-position: -30vh -70vh;
+}
+
+
+//******* MENU PRODUCTS
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.menu
+{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25% ;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.first-parent
+{
+  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  grid-column-start: 1;
+  margin-left: 5em;
+  height: 15%;
+}
+
+.first-content
+{
+  margin-top: 76px;
+  height: auto;
+  width: auto;
+  cursor: default;
+}
+
+.first-content-child
+{
+  text-align: left;
+  font: normal normal bold 24px/29px acumin-pro;
+  letter-spacing: 1.8px;
+  color: #3B573B;
   opacity: 1;
+  display: inline-block;
+}
+
+.first-vector
+{
+  top: 76px;
+  left: 794px;
+  width: 25px;
+  height: 0px;
+  border: 1px solid #F3D145;
+  opacity: 1;
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-right: 16px;
+  transition: 0.3s;
+  cursor: default;
+}
+
+.second-parent
+{
+  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  grid-column-start: 2;
+  height: 15%;
+  margin-left: 15em;
+}
+
+.second-content
+{
+  margin-top: 70px;
+  height: auto;
+  cursor: default;
+}
+
+.content-list
+{
+  margin-bottom: 40px;
+  height: auto;
+}
+
+.content-list:hover .ligne{
+  border-color: #3B573B;
+}
+
+.ligne-list
+{
+  top: 173px;
+  left: 833px;
+  width: 121px;
+  height: 12px;
+  list-style: none;
+  color:#375238;
+  cursor: default;
+  text-align: left;
+  font: normal normal bold 12px/14px acumin-pro;
+  letter-spacing: 0.9px;
+  color: #375238;
+  opacity: 1;
+  display: inline-block;
+}
+
+.ligne
+{
+  top: 76px;
+  left: 794px;
+  width: 25px;
+  height: 0px;
+  border: 1px solid #F3D145;
+  opacity: 1;
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-right: 16px;
+  transition: 0.3s;
+  cursor: default;
+}
+
+.ligne:hover
+{
+  border-color: #375238;
+}
+
+.third-parent
+{
+  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  grid-column-start: 3;
+  height: 15%;
+  margin-left: 15em;
+}
+
+.third-content
+{
+  margin-top: 70px;
+  height: auto;
+  cursor: default;
+}
+
+.social-media
+{
+  animation: 0.5s ease-out 0s 1 slideInFromRight;
+  grid-column-start: 4;
+  text-align: right;
+  height: 15%;
+}
+
+.social-media-parent
+{
+  margin-top: 67px;
+  height: auto;
+  cursor: default;
+  margin-right: 60px;
+}
+
+.social-media-content
+{
+  margin-bottom: 29px;
+  height: auto;
+}
+//******* END MENU PRODUCTS
+
+
+.fruit-title-content
+{
+  display: flex;
+  justify-content: center;
+}
+
+.fruit-lorem
+{
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 105px;
+  width: 977px;
+  background: rgba(255,255,255,0.39);
+}
+
+.fruit-lorem > p
+{
+  margin: 0 auto;
+  text-align: left;
+  font: normal normal bold 12px/14px acumin-pro;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 39px;
+  letter-spacing: 0.9px;
+  color: #375238;
+  opacity: 1;
+}
+
+.disc-div
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+}
+
+.disc-btn
+{
+  margin-right: 65em;
+  background-color: #F1D145;
+  border: none;
+  color: white;
+  font: normal normal normal 12px/14px acumin-pro;
+  width: 208px;
+  height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #375238;
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out  1s;
+  transition: ease-out 1s;
+}
+
+.disc-btn > img
+{
+  margin-left: 5px;
+  height: 8px;
+  justify-content: center;
+  transform: rotate(-90deg);
+}
+
+.disc-btn:hover {
+  box-shadow: inset 400px 0 0 0 #375238;
+}
+
+.fruit-title
+{
+  font: normal normal 900 150px/130px acumin-pro;
+  letter-spacing: 7.5px;
+  color: #375238;
+}
+
+.fruit-title > span
+{
+  color: #F1D145;
+}
+
+.footer-fruit
+{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.button-router
+{
+  top: 916px;
+  left: 1583px;
+  width: 277px;
+  height: 107px;
+  background: transparent url('../../assets/mutzii-tC1Snwcxw5g-unsplash (1).png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  grid-column-start: 3;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 125px 19px 17px;
+  gap: 0px 0px;
+  cursor: pointer;
+}
+
+.vege-route
+{
+  width: 116px;
+  height: 107px;
+  opacity: 1;
+  background: linear-gradient(to left, #F1D145 50%, #375238 50%) right;
+  background-size: 200%;
+  transition: 0s;
+}
+
+.arrow-icon
+{
+  position: relative;
+  top: 45px;
+  color: white;
+}
+
+.vege-router-text
+{
+  font-size: 15px;
+  transform:  matrix(0, -1, 1, 0, 0, 0);
+  color: #F1D145;
+  margin-top: 3ng s5px;
+}
+
+.vege-router-text > span
+{
+  color: #375238;
+}
+
+.vege-route:hover
+{
+  background-position: left;
+  transition: 0.6s ease-out;
+}
+
+
+.page-number
+{
+  top: 975px;
+  margin-top: 4em;
+  margin-right: 90em;
+  width: 110px;
+  height: 98px;
+  text-align: left;
+  opacity: 1;
+}
+
+
+.page-number > h1
+{
+  text-align: left;
+  font: normal normal bold 98px/16px acumin-pro;
+  letter-spacing: 7.35px;
+  color: #F1D145;
+}
+
+.page-number > h1 .sp1
+{
+  text-align: left;
+  font: normal normal bold 29px/16px Acumin Pro;
+  letter-spacing: 7.35px;
+  color: #F1D145;
+}
+
+.page-number > h1 .sp2
+{
+  text-align: left;
+  font: normal normal bold 29px/16px acumin-pro;
+  color: #375238;
 }
