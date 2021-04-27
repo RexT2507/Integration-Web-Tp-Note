@@ -1,6 +1,8 @@
 
 
-<div [@routeAnimations]="prepareRoute(Outlet)" class="content-parent">
+<!-- <div [@routeAnimations]="prepareRoute(Outlet)" class="content-parent"> -->
+  <div class="content-parent">
+
 
   <div class="sidebar" #elem>
 
@@ -20,7 +22,7 @@
 
     <div  (click)="toggleMenuCollapse()">
       <img  *ngIf="isMenuCollapsed" class="pending-logo" src="../assets/hamburger.png">
-      <span *ngIf="!isMenuCollapsed">X</span>
+      <span *ngIf="!isMenuCollapsed" class="pending-logo-close">X</span>
     </div>
 
     <div>
@@ -42,6 +44,53 @@
 
 
   <div class="collapse-menu" [ngClass]="{collapsed: isMenuCollapsed}">
+
+    <div class="first-parent">
+
+      <div class="first-content">
+
+        <li class="first-content-child"><div class="first-vector"></div>Our fruits</li>
+
+      </div>
+
+    </div>
+
+    <div class="menu-space"></div>
+
+    <div class="first-parent">
+
+      <div class="first-content">
+
+        <li class="first-content-child"><div class="first-vector"></div>Our vegetables</li>
+
+      </div>
+
+    </div>
+
+    <div class="menu-space"></div>
+
+    <div class="first-parent">
+
+      <div class="first-content">
+
+        <li class="first-content-child"><div class="first-vector"></div>Our vision</li>
+
+      </div>
+
+    </div>
+
+    <div class="menu-space"></div>
+
+    <div class="first-parent">
+
+      <div class="first-content">
+
+        <li class="first-content-child"><div class="first-vector"></div>Contact us</li>
+
+      </div>
+
+    </div>
+
 
   </div>
 
