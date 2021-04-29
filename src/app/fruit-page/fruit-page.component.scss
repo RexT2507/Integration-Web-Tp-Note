@@ -11,7 +11,7 @@
 
 .fruit-content
 {
-  // animation: 0.5s ease-out 0s 1 slideInFromBottom;
+  animation: 0.5s ease-out 0s 1 slideInFromBottom;
   background: transparent url('../../assets/pineapple-supply-co-prP9CYcRpzA-unsplash.png') 0% 0% no-repeat padding-box;
   background-position: -30vh -70vh;
 }
@@ -47,7 +47,7 @@
 
 .first-parent
 {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  animation: 0.5s ease-out 0.5s 1 slideInFromLeft;
   grid-column-start: 1;
   margin-left: 5em;
   height: 15%;
@@ -88,7 +88,7 @@
 
 .second-parent
 {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  animation: 0.5s ease-out 0.5s 1 slideInFromLeft;
   grid-column-start: 2;
   height: 15%;
   margin-left: 15em;
@@ -150,7 +150,7 @@
 
 .third-parent
 {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  animation: 0.5s ease-out 0.5s 1 slideInFromLeft;
   grid-column-start: 3;
   height: 15%;
   margin-left: 15em;
@@ -168,7 +168,7 @@
   grid-column-start: 4;
   text-align: right;
   height: 15%;
-  animation: 0.5s ease-out 0s 1 slideInFromRight;
+  animation: 0.5s ease-out 0.5s 1 slideInFromRight;
 }
 
 .social-media-parent
@@ -272,8 +272,10 @@
   padding-bottom: 50px;
 }
 
+
 .button-router
 {
+  animation: 0.5s ease-out 0.5s 1 slideInFromRight;
   top: 916px;
   left: 1583px;
   width: 277px;
@@ -327,6 +329,7 @@
 
 .page-number
 {
+  animation: 0.5s ease-out 0s 1 slideInFromBottom;
   top: 975px;
   margin-top: 4em;
   margin-right: 90em;
@@ -348,7 +351,7 @@
 .page-number > h1 .sp1
 {
   text-align: left;
-  font: normal normal bold 29px/16px Acumin Pro;
+  font: normal normal bold 29px/16px acumin-pro;
   letter-spacing: 7.35px;
   color: #F1D145;
 }
