@@ -1,0 +1,24 @@
+name: Publish Pages CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+
+  staging:
+    name: Static files
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+    - name: build
+      run: |
+        npm ci
+        npm run build -- --baseHref=/Integration-Web-Tp-Note/
+    - name: Deploy
+      uses: RexT2507/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.INTEGRATION_TOKEN }}
+        publish_dir: ./dist/IntegrationWeb
