@@ -11,6 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Démo du site
 
+Lien vers la démo du site
 
 
 ## Guide d'utilisation du projet
@@ -40,6 +41,10 @@ Quand vous vous rendrez sur le projet pensez à mettre le navigateur en responsi
 ![Alt Text](https://github.com/RexT2507/Integration-Web-Tp-Note/blob/master/src/assets/ezgif-4-dabcded73877.gif)
 
 # Documentation du projet
+
+Le lien vers la documentation
+
+https://github.com/RexT2507/Integration-Web-Tp-Note.git
 
 ## Development server
 
