@@ -7,6 +7,7 @@ import {
 	animate,
 	transition
 } from '@angular/animations';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-fruit-page',
@@ -40,9 +41,15 @@ export class FruitPageComponent implements OnInit {
 	active: boolean = false;
 
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+  vegeRoute()
+  {
+    this.router.navigate(['/vegetable']).then(() => {
+      window.location.reload();
+    });
   }
 
 }

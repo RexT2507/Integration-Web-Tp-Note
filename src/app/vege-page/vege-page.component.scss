@@ -50,7 +50,7 @@
 
 .first-parent
 {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  animation: 0.5s ease-out 0.5s 1 slideInFromLeft;
   grid-column-start: 1;
   margin-left: 5em;
   height: 15%;
@@ -91,7 +91,7 @@
 
 .second-parent
 {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  animation: 0.5s ease-out 0.5s 1 slideInFromLeft;
   grid-column-start: 2;
   height: 15%;
   margin-left: 15em;
@@ -153,7 +153,7 @@
 
 .third-parent
 {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  animation: 0.5s ease-out 0.5s 1 slideInFromLeft;
   grid-column-start: 3;
   height: 15%;
   margin-left: 15em;
@@ -168,7 +168,7 @@
 
 .social-media
 {
-  animation: 0.5s ease-out 0s 1 slideInFromRight;
+  animation: 0.5s ease-out 0.5s 1 slideInFromRight;
   grid-column-start: 4;
   text-align: right;
   height: 15%;
@@ -277,11 +277,12 @@
 
 .button-router
 {
+  animation: 0.5s ease-out 0.5s 1 slideInFromRight;
   top: 916px;
   left: 1583px;
   width: 277px;
   height: 107px;
-  background: transparent url('../../assets/mutzii-tC1Snwcxw5g-unsplash (1).png') 0% 0% no-repeat padding-box;
+  background: transparent url('../../assets/Sans-titre-1.png') 0% 0% no-repeat padding-box;
   opacity: 1;
   grid-column-start: 3;
   text-align: center;
@@ -330,6 +331,7 @@
 
 .page-number
 {
+  animation: 0.5s ease-out 0s 1 slideInFromBottom;
   top: 975px;
   margin-top: 4em;
   margin-right: 90em;
@@ -351,7 +353,7 @@
 .page-number > h1 .sp1
 {
   text-align: left;
-  font: normal normal bold 29px/16px Acumin Pro;
+  font: normal normal bold 29px/16px acumin-pro;
   letter-spacing: 7.35px;
   color: #F1D145;
 }

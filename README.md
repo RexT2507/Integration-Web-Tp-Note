@@ -1,8 +1,17 @@
 [![Angular CI](https://github.com/RexT2507/Integration-Web-Tp-Note/actions/workflows/angular.yml/badge.svg)](https://github.com/RexT2507/Integration-Web-Tp-Note/actions/workflows/angular.yml)
 
+
+```diff
+- ATTENTION LIRE LE README JUSQU'AU BOUT
+```
+
 # IntegrationWebTpNote
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
+
+## Démo du site
+
+
 
 ## Guide d'utilisation du projet
 
@@ -12,7 +21,25 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Quand vous vous rendrez sur le projet pensez à mettre le navigateur en responsive et dans les dimentions `1920x1080` et mettre la souris en mode `Desktop`.
 
-![Alt Text](./assets/resolution.PNG)
+![Alt Text](https://github.com/RexT2507/Integration-Web-Tp-Note/blob/master/src/assets/resolution.PNG)
+
+# Les différents développements
+
+## Les animations
+
++ Les animations des boutons :
+
+![Alt Text](https://github.com/RexT2507/Integration-Web-Tp-Note/blob/master/src/assets/ezgif-2-106641d20bea.gif)
+
++ Les animations des pages :
+
+![Alt Text](https://github.com/RexT2507/Integration-Web-Tp-Note/blob/master/src/assets/ezgif-4-e7a456aceaee.gif)
+
++ Les animations du menu collapse :
+
+![Alt Text](https://github.com/RexT2507/Integration-Web-Tp-Note/blob/master/src/assets/ezgif-4-dabcded73877.gif)
+
+# Documentation du projet
 
 ## Development server
 
