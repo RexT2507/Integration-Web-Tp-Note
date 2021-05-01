@@ -13,6 +13,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Lien vers la démo du site
 
+https://rext2507.github.io/Integration-Web-Tp-Note/
+
 
 ## Guide d'utilisation du projet
 
@@ -42,9 +44,9 @@ Quand vous vous rendrez sur le projet pensez à mettre le navigateur en responsi
 
 # Documentation du projet
 
-Le lien vers la documentation
-
-https://github.com/RexT2507/Integration-Web-Tp-Note.git
++ Allez dans le dossier documentation
++ Tapez la commande suivante `npm run compodoc`
++ Tapez cette adresse dans votre navigateur  `http://127.0.0.1:8080/`
 
 ## Development server
 
