@@ -1,5 +1,7 @@
 [![Angular CI](https://github.com/RexT2507/Integration-Web-Tp-Note/actions/workflows/angular.yml/badge.svg)](https://github.com/RexT2507/Integration-Web-Tp-Note/actions/workflows/angular.yml)
 
+[![Publish Pages CI](https://github.com/RexT2507/Integration-Web-Tp-Note/actions/workflows/static.yml/badge.svg)](https://github.com/RexT2507/Integration-Web-Tp-Note/actions/workflows/static.yml)
+
 
 ```diff
 - ATTENTION LIRE LE README JUSQU'AU BOUT
